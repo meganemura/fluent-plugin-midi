@@ -11,6 +11,19 @@ $ gem install fluent-plugin-midi
 ## Usage
 
 ```
+echo '{"status":144, "note": 60, "velocity": 120}' | fluent-cat debug
+echo '{"status":144, "note": 60, "velocity": 0}'   | fluent-cat debug
+```
+
+or
+
+```
+echo '{"status":144, "note": 60, "velocity": 120, "duration": 3}' | fluent-cat debug
+```
+
+## Configuration
+
+```
 <match pattern>
   type midi
   port MIDI_PORT_INDEX
