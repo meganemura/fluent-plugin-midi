@@ -1,5 +1,3 @@
-require "fluent/plugin/midi/version"
-
 module Fluent
   module Plugin
     module Midi
