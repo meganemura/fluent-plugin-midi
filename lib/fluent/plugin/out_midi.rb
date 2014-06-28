@@ -21,6 +21,7 @@ module Fluent
 
     def shutdown
       super
+      @output.close_port
     end
 
     def emit(tag, es, chain)
