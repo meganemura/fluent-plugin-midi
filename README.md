@@ -1,4 +1,8 @@
 # MIDI output plugin for [Fluentd](http://fluentd.org/)
+[![Gem Version](https://img.shields.io/gem/v/fluent-plugin-midi.svg)](http://badge.fury.io/rb/fluent-plugin-midi)
+[![Code Climate](https://img.shields.io/codeclimate/github/meganemura/fluent-plugin-midi.svg)](https://codeclimate.com/github/meganemura/fluent-plugin-midi)
+[![Dependency Status](https://gemnasium.com/meganemura/fluent-plugin-midi.svg)](https://gemnasium.com/meganemura/fluent-plugin-midi)
+
 
 Experimental project for log audiolization.
 
