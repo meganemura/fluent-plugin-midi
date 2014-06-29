@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
   spec.name          = "fluent-plugin-midi"
-  spec.version       = "0.0.2"
+  spec.version       = "0.1.0"
   spec.authors       = ["meganemura"]
   spec.email         = ["mura2megane@gmail.com"]
   spec.summary       = %q{MIDI Input/Output plugin for Fluentd event collector}
