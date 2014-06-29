@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version       = "0.0.2"
   spec.authors       = ["meganemura"]
   spec.email         = ["mura2megane@gmail.com"]
-  spec.summary       = %q{MIDI Output plugin for Fluentd event collector}
+  spec.summary       = %q{MIDI Input/Output plugin for Fluentd event collector}
   spec.description   = spec.summary
   spec.homepage      = "https://github.com/meganemura/fluent-plugin-midi"
   spec.license       = "MIT"
