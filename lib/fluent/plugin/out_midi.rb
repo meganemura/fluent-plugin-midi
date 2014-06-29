@@ -16,7 +16,7 @@ module Fluent
     def start
       super
       @output = RtMidi::Out.new
-      @output.open_port(port)
+      @output.open_port(@port)
     end
 
     def shutdown
