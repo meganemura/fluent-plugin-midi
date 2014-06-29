@@ -1,4 +1,4 @@
-# MIDI output plugin for [Fluentd](http://fluentd.org/)
+# MIDI Input/Output plugin for [Fluentd](http://fluentd.org/)
 [![Gem Version](https://img.shields.io/gem/v/fluent-plugin-midi.svg)](http://badge.fury.io/rb/fluent-plugin-midi)
 [![Code Climate](https://img.shields.io/codeclimate/github/meganemura/fluent-plugin-midi.svg)](https://codeclimate.com/github/meganemura/fluent-plugin-midi)
 [![Dependency Status](https://gemnasium.com/meganemura/fluent-plugin-midi.svg)](https://gemnasium.com/meganemura/fluent-plugin-midi)
@@ -14,8 +14,10 @@ $ gem install fluent-plugin-midi
 
 ## Usage
 
+ * Output
 ```
 echo '{"status":144, "note": 60, "velocity": 120}' | fluent-cat debug
+sleep 3
 echo '{"status":144, "note": 60, "velocity": 0}'   | fluent-cat debug
 ```
 
@@ -27,6 +29,16 @@ echo '{"status":144, "note": 60, "velocity": 120, "duration": 3}' | fluent-cat d
 
 ## Configuration
 
+ * Input
+```
+<source>
+  type midi
+  tag  TAG
+  port MIDI_PORT_INDEX
+</source>
+```
+
+ * Output
 ```
 <match pattern>
   type midi
