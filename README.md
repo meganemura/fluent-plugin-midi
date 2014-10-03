@@ -1,4 +1,5 @@
 # MIDI Input/Output plugin for [Fluentd](http://fluentd.org/)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/meganemura/fluent-plugin-midi?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Gem Version](https://img.shields.io/gem/v/fluent-plugin-midi.svg)](http://badge.fury.io/rb/fluent-plugin-midi)
 [![Code Climate](https://img.shields.io/codeclimate/github/meganemura/fluent-plugin-midi.svg)](https://codeclimate.com/github/meganemura/fluent-plugin-midi)
 [![Dependency Status](https://gemnasium.com/meganemura/fluent-plugin-midi.svg)](https://gemnasium.com/meganemura/fluent-plugin-midi)
